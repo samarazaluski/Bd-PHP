@@ -30,7 +30,7 @@ $u = new Usuario;
 <?php
 
 
-if (isset($_POST ['nome']))
+if (isset($_POST ['nome'])) 
 
 {
     $nome=addslashes($_POST ['nome'])
